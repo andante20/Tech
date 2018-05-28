@@ -330,4 +330,20 @@ vagrant@ubuntu-xenial:~$
 vagrant@ubuntu-xenial:~$
 ~~~
 
+6. 종료
+```sh
+vagrant@ubuntu-xenial:~$ exit
+logout
+Connection to 127.0.0.1 closed.
+
+>vagrant halt
+==> default: Attempting graceful shutdown of VM...
+```
+
+7. 삭제
+```sh
+>vagrant destroy
+    default: Are you sure you want to destroy the 'default' VM? [y/N] y
+==> default: Destroying VM and associated drives...
+```
 
