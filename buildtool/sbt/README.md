@@ -27,3 +27,8 @@ sbt
 ### 사용법
 
 [Quick Start](sbt_00.md)
+
+
+### intelij 설정
+![sbt](20180531_140445.png)
+![sbt](20180531_140519.png)
