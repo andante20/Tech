@@ -14,6 +14,15 @@ setx -m PATH=%PATH%;%SBT_HOME%\bin;
 sbt
 ```
 
+### repository path 설정
+* 기본 %USERPROFILE%\.sbt, %USERPROFILE%\.ivy2
+* %SBT_HOME%\conf\sbtconfig.txt  
+
+  추가  
+  ```properties
+  -Dsbt.global.base=d:/opt/sbt/.sbt
+  -Dsbt.ivy.home=d:/opt/sbt/.ivy2
+  ```
 
 ### 사용법
 
