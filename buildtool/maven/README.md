@@ -11,8 +11,8 @@ cd d:\opt\maven
 curl -k -L -o apache-maven-3.5.3-bin.zip http://mirror.apache-kr.org/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.zip
 tar -xzvf apache-maven-3.5.3-bin.zip
 
-setx -m MAVEN_HOME=d:\opt\maven\apache-maven-3.5.3-bin
-setx -m PATH=%PATH%;%MAVEN_HOME%\bin;
+setx -m MAVEN_HOME d:\opt\maven\apache-maven-3.5.3-bin
+setx -m PATH %PATH%;%MAVEN_HOME%\bin;
 
 mvn -version
 
